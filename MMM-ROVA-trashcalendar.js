@@ -4,7 +4,7 @@
  * MIT Licensed
  */
 
-Module.register("MMM-ROVA-trashcalendar", {
+Module.register("MMM-DIFTAR", {
     defaults: {
         zipcodeId: "2323-13014",
         streetId: "https://data.vlaanderen.be/id/straatnaam-14879",
