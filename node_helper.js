@@ -6,9 +6,17 @@ module.exports = NodeHelper.create({
 
 		if(notification === "GET_TRASH_DATA") {
 
-const rovaApiUrl = 'https://api.fostplus.be/recyclecms/public/v1/collections?zipcodeId=' + payload.zipcodeId + '&streetId=' + payload.streetId + '&houseNumber=' + payload.houseNumber + '&untilDate= + payload.untildate';
+const rovaApiUrl = 'https://api.fostplus.be/recyclecms/public/v1/collections?zipcodeId=' + payload.zipcodeId + '&streetId=' + payload.streetId + '&houseNumber=' + payload.houseNumber + '&untilDate= + payload.untildate;
 			
 			const errorResponse = {error: true};
+
+
+// Define the headers with x-secret
+			const headers = {
+				'Content-Type': 'application/json',
+				'x-secret': 'recycleapp.be'  // Replace 'your-secret-key-here' with the actual secret key
+			};
+			
 
 			fetch(rovaApiUrl)
 				.then((response) => {
