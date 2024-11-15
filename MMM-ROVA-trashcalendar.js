@@ -6,8 +6,8 @@
 
 Module.register("MMM-ROVA-trashcalendar", {
     defaults: {
-        zipCode: "8016AA",
-        houseNr: 29,
+        zipCode: "2323",
+        houseNr: 18,
         houseNrAddition: "",
         dateFormat: "dddd D MMMM",
         updateInterval: 4 * 60 * 60 * 1000 // Defaults to 4 hours
