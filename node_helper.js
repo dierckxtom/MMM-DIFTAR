@@ -5,6 +5,9 @@ module.exports = NodeHelper.create({
 	socketNotificationReceived (notification, payload) {
 
 		if(notification === "GET_TRASH_DATA") {
+
+const rovaApiUrl = 'https://api.fostplus.be/recyclecms/public/v1/collections?zipcodeId=' + payload.zipcodeId + '&streetId=' + payload.streetId + '&houseNumber=' + payload.houseNumber + '&untilDate= + payload.untildate';
+			
 			const rovaApiUrl = 'https://www.rova.nl/api/waste-calendar/upcoming?postalcode=' + payload.zipCode + '&houseNumber=' + payload.houseNr + '&addition=' + payload.houseNrAddition + '&take=3';
 			const errorResponse = {error: true};
 
