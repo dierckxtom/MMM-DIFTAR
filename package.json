@@ -1,0 +1,22 @@
+{
+  "name": "MMM-ROVA-trashcalendar",
+  "version": "1.0.2",
+  "description": "MagicMirror² modules to show when (and which type of) trash will be collected by the ROVA trash service in the Netherlands.",
+  "author": "Jeroen Peters",
+  "license": "MIT",
+  "main": "MMM-ROVA-trashcalendar.js",
+  "homepage": "https://github.com/jeroenpeters1986/MMM-ROVA-trashcalendar.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeroenpeters1986/MMM-ROVA-trashcalendar.git"
+  },
+  "keywords": [
+    "magic mirror",
+    "afval",
+    "rova",
+    "trash"
+  ],
+  "bugs": {
+    "url": "https://github.com/jeroenpeters1986/MMM-ROVA-trashcalendar/issues"
+  }
+}
