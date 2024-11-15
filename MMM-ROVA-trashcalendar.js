@@ -6,11 +6,12 @@
 
 Module.register("MMM-ROVA-trashcalendar", {
     defaults: {
-        zipCode: "2323",
-        houseNr: 18,
-        houseNrAddition: "",
-        dateFormat: "dddd D MMMM",
-        updateInterval: 4 * 60 * 60 * 1000 // Defaults to 4 hours
+        zipcodeId: "2323-13014",
+        streetId: "https://data.vlaanderen.be/id/straatnaam-14879",
+        houseNumber: "18" ,
+        fromDate: "2024-11-15",
+        untilDate: "2024-11-29",
+        size: "100"
     },
 
     requiresVersion: "2.16.0",
